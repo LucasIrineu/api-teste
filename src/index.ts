@@ -4,7 +4,7 @@ import cors from 'cors'
 import { AppDataSource } from './database/data-source'
 import routes from './app/routes/measure.routes'
 
-const app = express()
+export const app = express()
 
 app.use(cors())
 

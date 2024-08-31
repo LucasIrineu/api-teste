@@ -14,9 +14,9 @@
 		"strict": true,
 		"noImplicitAny": true,
 		"strictPropertyInitialization": false,
-		"typeRoots": ["./src/@types"]
+		"types": ["jest"],
 	},
-	"include": ["src/**/*"],
+	"include": ["src/**/*.ts", "src/**/*.test.ts"],
 	"exclude": ["node_modules", "dist"],
 	"ts-node": {
 		"files": true
